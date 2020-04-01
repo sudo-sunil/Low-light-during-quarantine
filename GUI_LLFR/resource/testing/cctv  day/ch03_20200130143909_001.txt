@@ -1,0 +1,73 @@
+***************************************************************
+*                                                             *
+* Copyright Hikvision Digital Technology Co., Ltd.            *
+*                                                             *
+***************************************************************
+
+2 logs output
+
+
+User: admin Date:30/01/2020 Time: 14:55:13 made video export from DVR 0420141230AAWR496487246WCVU
+
+
+----------------------------
+1     2020-01-30 14:40:01
+----------------------------
+Major Type: Information
+Minor Type: System Running Status
+Local User: N/A
+Host IP Address: N/A
+Parameter Type : N/A
+Camera No.: N/A
+
+A1 Len: 41798580 R: 1976560 W: 2151144 Time: 30-01-2020 14:40:01
+A2 Len: 122004572 R: 1905232 W: 2043428 Time: 30-01-2020 14:40:01
+A3 Len: 68637872 R: 956052 W: 1305156 Time: 30-01-2020 14:40:01
+A4 Len: 90162752 R: 1149224 W: 1253568 Time: 30-01-2020 14:40:01
+D1 Len: 0 R: 0 W: 0 Time: 01-01-1970 00:00:00
+
+
+
+----------------------------
+2     2020-01-30 14:40:11
+----------------------------
+Major Type: Information
+Minor Type: System Running Status
+Local User: N/A
+Host IP Address: N/A
+Parameter Type : N/A
+Camera No.: N/A
+
+System status: 2
+User: 1%
+Sys: 1%
+Iowait: 0%
+Soft: 3%
+Idle: 93%
+Total memory: 122MB
+Free memory: 2,472KB
+Buffer: 45,280KB
+Cached: 27,688KB
+Main output: HDMI(2)
+Main output status: 9
+Main output screen-division: 0
+Enable main output screensaver: 0
+Aux output: Main CVBS(1)
+Aux output status: 0
+Aux output screen-division: 0
+Enable Aux output  screensaver: 1
+Current output: 2
+DSP status: 
+    34e1     34e1        3       65        0     12f3     12f3        0 
+       0        0     34e1     34e1     12f3     12f3     34e1     34e1 
+       0        0        0        0        0        0        0        0 
+       0        0        0        0        0        0        0        0 
+       0        0        0        0        0        0        0        0 
+
+
+
+
+
+********************** LOG  END*************************
+
+
