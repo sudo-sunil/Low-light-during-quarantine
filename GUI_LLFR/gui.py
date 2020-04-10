@@ -32,6 +32,7 @@ class home:
     def choose(self):
         global path
         path=tkFileDialog.askopenfilename(title = "Select file",filetypes = (("jpeg files","*.jpg"),("all files","*.*")))
+        print "path is",path
         im = Image.open(path)
         im2 = im.resize((250, 250), Image.ANTIALIAS)
         
@@ -50,6 +51,7 @@ class home:
         img_yuv[:,:,0] = clahe.apply(img_yuv[:,:,0])
         image = cv2.cvtColor(img_yuv, cv2.COLOR_YUV2BGR)
         path2 = os.path.dirname(path)+"/clahe_out.jpeg"
+        print "path2 is",path2
         cv2.imwrite(path2,image)
 
 
